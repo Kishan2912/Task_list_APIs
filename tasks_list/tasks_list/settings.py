@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     #apps
     'apps.task',
     #third party apps
-    'rest_framework',
+    'rest_framework',    
 ]
 
 MIDDLEWARE = [

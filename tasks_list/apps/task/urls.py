@@ -7,4 +7,6 @@ urlpatterns = [
     path('get/<int:pk>/', GetTask.as_view()),
     path('update/<int:pk>/', UpdateTask.as_view()),
     path('delete/<int:pk>/', DeleteTask.as_view()),
+    path('multipost/', CreateMultiTask),
+    path('multidelete/<str:pk_ids>/', DeleteMultiTask.as_view()),
 ]
